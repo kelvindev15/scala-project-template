@@ -2,7 +2,6 @@ import Dependecies.*
 
 ThisBuild / scalaVersion := "3.3.0"
 ThisBuild / organization := "io.github.kelvindev15"
-ThisBuild / semanticdbEnabled := true
 
 wartremoverErrors ++= Warts.all
 wartremoverErrors --= Seq(Wart.Var, Wart.Equals)
