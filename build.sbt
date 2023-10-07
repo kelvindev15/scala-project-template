@@ -14,6 +14,7 @@ CucumberPlugin.glues := List("example.scenarios")
 lazy val hello = (project in file("."))
   .settings(
     name := "Hello",
+    scalaVersion := "3.3.0",
     libraryDependencies ++= scalaTestBundle,
     libraryDependencies ++= cucumberBundle,
     libraryDependencies += scalaTestJUnit5
