@@ -15,7 +15,7 @@ jobs:
         with:
           java-version: openjdk@1.17
       - name: View sbt folders
-        run: tree ~/.sbt
+        run: ls ~/.sbt
       - name: Run tests
         run: sbt -v +test
       - name: Run Cucumber
