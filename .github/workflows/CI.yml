@@ -15,7 +15,7 @@ jobs:
         with:
           java-version: openjdk@1.17
       - name: Run compile
-        run: sbt build
+        run: sbt compile
       - name: View sbt folders
         run: tree ~/.sbt
       - name: Run test
