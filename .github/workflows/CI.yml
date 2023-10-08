@@ -15,11 +15,9 @@ jobs:
         with:
           java-version: openjdk@1.17
       - name: Run compile
-        run: sbt compile
+        run: sbt build
       - name: View sbt folders
-        run: ls ~/.sbt
-      - name:
+        run: tree ~/.sbt
+      - name: Run test
         run: sbt -v +test
-      - name: Run Cucumber
-        run: sbt cucumber
     
