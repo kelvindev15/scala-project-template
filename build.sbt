@@ -1,3 +1,4 @@
+import java.io.File
 import Dependecies.*
 
 ThisBuild / scalaVersion := "3.3.0"
@@ -17,6 +18,8 @@ addCompilerPlugin(
 scalacOptions ++= Seq("Null").map(wart =>
   s"-P:wartremover:traverser:org.wartremover.warts.${wart}"
 )
+
+Compile / doc / target := baseDirectory.value / "api"
 
 lazy val hello = (project in file("."))
   .settings(
