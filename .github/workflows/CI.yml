@@ -14,6 +14,8 @@ jobs:
       - uses: olafurpg/setup-scala@v11
         with:
           java-version: openjdk@1.17
+      - name: Show library resolvers
+        run: sbt "show resolvers"
       - name: View plugin dependencies
         run: sbt "reload plugins" "dependencyTree"
       - name: Run compile
