@@ -1,9 +1,9 @@
-name: CI
+name: Generate website
 on:
   - push
   - workflow_dispatch
 jobs:
-  test:
+  website:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -16,6 +16,7 @@ jobs:
       - name: Generate Documentation website
         run: | 
             cd docs
+            npm install
             npm run build
             mv ../api/ ./build/
       - name: Check project structure
