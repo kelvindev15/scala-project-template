@@ -14,9 +14,11 @@ jobs:
       - uses: olafurpg/setup-scala@v11
         with:
           java-version: openjdk@1.17
+      - name: Run compile
+        run: sbt compile
       - name: View sbt folders
         run: ls ~/.sbt
-      - name: Run tests
+      - name:
         run: sbt -v +test
       - name: Run Cucumber
         run: sbt cucumber
