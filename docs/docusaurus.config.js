@@ -14,8 +14,8 @@ const config = {
   url: 'https://kelvin-olaiya.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  // baseUrl: '/scala-project-template/',
-  baseUrl: '/',
+  baseUrl: '/scala-project-template/',
+  // baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
