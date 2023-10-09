@@ -77,7 +77,7 @@ const config = {
             label: 'Tutorial',
           },
           {
-            to: "api/",
+            href: "/api/",
             label: "Scaladoc",
             position: "left",
           },
