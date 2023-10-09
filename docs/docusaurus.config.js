@@ -80,6 +80,7 @@ const config = {
             href: "/api/",
             label: "Scaladoc",
             position: "right",
+            target: "_blank"
           },
           {
             href: 'https://github.com/kelvin-olaiya/scala-project-template',
