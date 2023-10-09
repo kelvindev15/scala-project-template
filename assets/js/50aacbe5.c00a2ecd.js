@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[9242],{1256:a=>{a.exports=JSON.parse('{"label":"docusaurus","permalink":"/scala-project-template/blog/tags/docusaurus","allTagsPath":"/scala-project-template/blog/tags","count":4}')}}]);
