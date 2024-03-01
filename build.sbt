@@ -27,5 +27,6 @@ lazy val hello = (project in file("."))
     scalaVersion := "3.3.0",
     libraryDependencies ++= scalaTestBundle,
     libraryDependencies ++= cucumberBundle,
-    libraryDependencies += scalaTestJUnit5
+    libraryDependencies += scalaTestJUnit5,
+    libraryDependencies += scalaTestMockito,
   )
