@@ -28,6 +28,6 @@ lazy val hello = (project in file("."))
     libraryDependencies ++= scalaTestBundle,
     libraryDependencies ++= cucumberBundle,
     libraryDependencies += scalaTestJUnit5,
-    libraryDependencies += scalaTestMockito,
+    libraryDependencies ++= mockitoBundle,
     libraryDependencies += scalaCheck
   )
