@@ -18,7 +18,7 @@ object Dependecies {
   val scalaTest = "org.scalatest" %% "scalatest" % scalaTestVersion % Test
   val scalaCheck = "org.scalacheck" %% "scalacheck" % "1.18.0" % Test
   val scalaTestJUnit5 =
-    "org.scalatestplus" %% "junit-5-10" % "3.2.18.0" % Test
+    "org.scalatestplus" %% "junit-5-10" % "3.2.19.0" % Test
   val mockitoCore = "org.mockito" % "mockito-core" % "5.12.0" % Test
   val scalaTestMockito =
     "org.scalatestplus" %% "mockito-5-10" % "3.2.18.0" % Test
